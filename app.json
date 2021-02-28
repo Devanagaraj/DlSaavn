@@ -1,0 +1,30 @@
+{
+    "name": "DlSaavn",
+    "description": "A Telegram Bot to download High quality songs from Jiosaavn",
+    "keywords": [
+      "telegram",
+      "pyrogram",
+      "saavn",
+      "saavndl",
+      "DlSaavn"
+    ],
+    "website": "https://github.com/Devanagaraj/DlSaavn",
+    "repository": "https://github.com/Devanagaraj/DlSaavn",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "get this value from @BotFather",
+        "value": ""
+      }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
